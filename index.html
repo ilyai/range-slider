@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Range Slider Plugin Demo</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery.range-slider.js"></script>
+</head>
+<body>
+	<h1>Range Slider Plugin Demo</h1>
+	<div class="range-slider">
+		<input type="range" min="0" max="100" value="50"/>
+		<input type="number" min="0" max="100" size="3" maxlength="3"/>
+	</div>
+	<script>
+		$(document).ready(function() {
+			$(".range-slider").rangeSlider();
+		});
+	</script>
+</body>
+</html>
